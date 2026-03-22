@@ -28,11 +28,6 @@ export default function PhilosophyPage() {
         work that holds up when it is examined closely.
       </p>
 
-      <p className="text-[var(--foreground)]">
-        In line with the course prompt, I also take seriously Bill Hicks&apos; reminder that we are
-        the facilitators of our own creative evolution: growth is practiced, not accidental—and that
-        practice shows up in how we ship, how we listen, and how we iterate.
-      </p>
     </Prose>
   );
 }

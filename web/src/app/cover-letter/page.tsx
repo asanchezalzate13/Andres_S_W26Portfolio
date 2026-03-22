@@ -24,9 +24,7 @@ export default function CoverLetterPage() {
       <p>
         Hiring Manager
         <br />
-        Deloitte
         <br />
-        8 Adelaide St W #200, Toronto, ON M5H 0A9
       </p>
 
       <p>
@@ -36,9 +34,8 @@ export default function CoverLetterPage() {
       <p>Dear Hiring Manager,</p>
 
       <p>
-        I am writing to express my enthusiastic interest in the Junior Financial Analyst position at
-        Deloitte. Combining a rigorous technical background from George Brown College with an
-        entrepreneurial spirit, I am eager to contribute to Deloitte&apos;s mission of delivering
+        I am writing to express my enthusiastic interest in the Junior Financial Analyst position. Combining a rigorous technical background from George Brown College with an
+        entrepreneurial spirit, I am eager to contribute to the mission of delivering
         high-impact financial solutions.
       </p>
 
@@ -52,11 +49,10 @@ export default function CoverLetterPage() {
       </p>
 
       <p>
-        I am particularly drawn to Deloitte&apos;s reputation for innovation. As a trilingual
+        I am particularly drawn to innovation. As a trilingual
         professional (Spanish, French, English) with a history of elite athletic competition, I
         bring a global perspective and a disciplined work ethic to every challenge. I am confident
-        that my ability to synthesize technical data into actionable insights will support
-        Deloitte&apos;s continued success.
+        that my ability to synthesize technical data into actionable insights will support continued success.
       </p>
 
       <p>

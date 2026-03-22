@@ -1,38 +1,40 @@
+import { CapstoneDocCard } from "@/components/CapstoneDocCard";
+import { capstoneAssetUrl, capstonePdfFiles } from "@/lib/capstone";
+
 export default function CapstoneAnalysisPage() {
   return (
     <article className="prose-portrait max-w-3xl">
       <h2>Requirements analysis &amp; design</h2>
-      <p>
-        This section summarizes how requirements became a concrete design. Mirror your course
-        deliverables (UML, domain model, sequence diagrams) and embed exported images if desired.
-      </p>
-      <h3>Domain model (narrative)</h3>
-      <p>
-        Core concepts typically include <strong>User</strong> (with roles), <strong>Listing</strong>{" "}
-        (space metadata and rules), and <strong>Booking</strong> (time bounds and state). Adjust
-        names and cardinalities to match your ERD.
-      </p>
-      <h3>Key sequences</h3>
-      <ul>
-        <li>
-          <strong>Authentication:</strong> credential exchange, token/session strategy, and client
-          storage decisions.
-        </li>
-        <li>
-          <strong>Create booking:</strong> validation order, conflict checks, and optimistic vs.
-          server-confirmed states.
-        </li>
-        <li>
-          <strong>Owner updates listing:</strong> impact on active bookings; versioning or
-          notifications if applicable.
-        </li>
-      </ul>
-      <h3>API design principles</h3>
-      <ul>
-        <li>Resource-oriented routes with predictable naming</li>
-        <li>Consistent error payloads for client handling</li>
-        <li>Versioning or compatibility notes if the mobile client lagged the API</li>
-      </ul>
+
+      <CapstoneDocCard
+        title="Requirements analysis & design"
+        download={{
+          href: capstoneAssetUrl(capstonePdfFiles.requirementsAnalysisAndDesign),
+          fileName: capstonePdfFiles.requirementsAnalysisAndDesign,
+        }}
+      >
+        <p>
+          The PDF bundles diagrams and design notes (UML, domain model, sequences) as submitted for
+          the course. This section is the executive summary.
+        </p>
+        <p>
+          <strong className="text-[var(--foreground)]">Domain model (narrative):</strong> Core concepts
+          include <strong className="text-[var(--foreground)]">User</strong> (with roles),{" "}
+          <strong className="text-[var(--foreground)]">Listing</strong> (space metadata and rules), and{" "}
+          <strong className="text-[var(--foreground)]">Booking</strong> (time bounds and state) —
+          adjusted to match your ERD in the full document.
+        </p>
+        <p>
+          <strong className="text-[var(--foreground)]">Key sequences:</strong> Authentication flow;
+          create booking with validation and conflict checks; owner updates listing and impact on
+          active bookings.
+        </p>
+        <p>
+          <strong className="text-[var(--foreground)]">API design:</strong> Resource-oriented routes,
+          consistent error payloads for clients, and compatibility notes between API and mobile
+          releases.
+        </p>
+      </CapstoneDocCard>
     </article>
   );
 }

@@ -7,19 +7,11 @@ export default function ContactPage() {
     <Prose>
       <PageHeading title="Contact" eyebrow="Connect">
         <p>
-          Use the form for course-friendly outreach, or reach me directly on LinkedIn and GitHub.
+          Use the form for course-friendly outreach, or reach me directly on GitHub.
         </p>
       </PageHeading>
 
       <div className="flex flex-wrap gap-4 text-base">
-        <a
-          href={site.linkedInUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-medium text-[var(--accent)] underline underline-offset-4"
-        >
-          LinkedIn profile
-        </a>
         <a
           href={site.githubUrl}
           target="_blank"
