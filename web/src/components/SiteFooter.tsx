@@ -12,14 +12,16 @@ export function SiteFooter() {
           <p className="mt-1 max-w-md text-sm text-[var(--muted)]">{site.tagline}</p>
         </div>
         <div className="flex flex-wrap gap-4 text-sm">
-          <a
-            href={site.linkedInUrl}
-            className="text-[var(--accent)] underline-offset-4 hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
+          {site.linkedInUrl ? (
+            <a
+              href={site.linkedInUrl}
+              className="text-[var(--accent)] underline-offset-4 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          ) : null}
           <a
             href={site.githubUrl}
             className="text-[var(--accent)] underline-offset-4 hover:underline"

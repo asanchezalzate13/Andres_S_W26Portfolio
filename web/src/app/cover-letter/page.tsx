@@ -43,8 +43,11 @@ export default function CoverLetterPage() {
         Through my Computer Programming and Analysis program, I have mastered data analysis and system
         design using Python, Java, and SQL. My experience as a Project Manager for the ParkSpot
         application has taught me to oversee complex requirements and deliver data-driven results
-        under pressure. Furthermore, my background in the international coffee trade (Tatamá) has
-        provided me with practical insights into logistics, e-commerce, and the financial
+        under pressure. Furthermore, my background in the international coffee trade (
+        <a href={site.tatamaUrl} target="_blank" rel="noopener noreferrer">
+          Tatamá
+        </a>
+        ) has provided me with practical insights into logistics, e-commerce, and the financial
         foundations necessary for a successful business.
       </p>
 

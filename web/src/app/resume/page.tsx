@@ -6,8 +6,7 @@ export default function ResumePage() {
     <Prose>
       <PageHeading title="Resume" eyebrow="Personal data">
         <p>
-          Condensed résumé content for your portfolio. Replace placeholder links with live GitHub /
-          demo URLs before submission.
+          Condensed résumé content for your portfolio. Contact via GitHub or email below.
         </p>
       </PageHeading>
 
@@ -15,7 +14,15 @@ export default function ResumePage() {
       <p>
         Toronto, ON · {site.languages}
         <br />
-        <a href={site.linkedInUrl}>LinkedIn</a> · <a href={site.githubUrl}>GitHub</a>
+        {site.linkedInUrl ? (
+          <>
+            <a href={site.linkedInUrl}>LinkedIn</a>
+            {" · "}
+          </>
+        ) : null}
+        <a href={site.githubUrl}>GitHub</a>
+        {" · "}
+        <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
       </p>
 
       <h2>Profile</h2>
@@ -66,8 +73,11 @@ export default function ResumePage() {
         <strong>Role:</strong> Founder / operator.
         <br />
         Owned brand direction, logo design, and Shopify e-commerce logistics, including product
-        presentation, fulfillment considerations, and customer-facing content. More detail under{" "}
-        <a href="/professional">Professional</a>.
+        presentation, fulfillment considerations, and customer-facing content.{" "}
+        <a href={site.tatamaUrl} target="_blank" rel="noopener noreferrer">
+          tatamacolombiancoffee.com
+        </a>{" "}
+        · more detail under <a href="/professional">Professional</a>.
       </p>
 
       <h2>Athletic background</h2>

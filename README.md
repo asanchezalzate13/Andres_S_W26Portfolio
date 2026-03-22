@@ -39,10 +39,10 @@ Ensure the live URL remains valid past **April 30, 2026**, per the assignment.
 
 ## Before you submit
 
-1. Edit **`web/src/lib/site.ts`**: real LinkedIn, GitHub, and `contactEmail` (for FormSubmit).
+1. Edit **`web/src/lib/site.ts`**: `contactEmail` for FormSubmit; optional `linkedInUrl` if you add a profile later. GitHub: [asanchezalzate13](https://github.com/asanchezalzate13).
 2. Confirm FormSubmit: first form post triggers an activation email from FormSubmit.
 3. Replace placeholder links on **Work samples** and **Professional** pages.
-4. Add real **academic awards**, **volunteer** lines, and **Tatamá** URL where applicable.
+4. Academic awards live on the **Academic** page if needed; **Tatamá** URL is in `site.ts`.
 5. Keep capstone PDFs in `web/public/capstone/` aligned with **`capstonePdfFiles`** in `web/src/lib/capstone.ts`. Figma mockup URL: **`parkSpotMockupFigmaUrl`** in the same file.
 6. Record the **demo video** (with audio) walking through every rubric section.
 7. Zip this folder for D2L: **`Andres_S_W26Portfolio.zip`** including `web/` and this README.
@@ -52,5 +52,5 @@ Ensure the live URL remains valid past **April 30, 2026**, per the assignment.
 - **Personal data:** Home (bio), Resume, Cover letter, Philosophy  
 - **Academic credentials:** Academic page  
 - **Academic work:** Work samples (5+), Capstone subpages  
-- **Professional:** Professional page (samples, volunteer, letters, awards)  
+- **Professional:** Professional page (Tatamá + ParkSpot samples)  
 - **Contact:** Contact page (form + LinkedIn + GitHub)
