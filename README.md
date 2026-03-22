@@ -7,7 +7,7 @@ Course portfolio for **COMP3078 – Portfolio Development Project** (Winter 2026
 | Path | Purpose |
 |------|---------|
 | `web/` | Next.js site (minimal UI, all required sections) |
-| `web/public/docs/` | Put diploma PDFs, transcripts, letters here and link from pages |
+| `web/public/docs/` | Optional diploma PDFs (GBC, Baccalauréat); link from Academic page |
 | `web/public/capstone/` | Team PDFs + `capstonePdfFiles` in `web/src/lib/capstone.ts` must stay in sync |
 
 ## Run locally (development)
@@ -42,7 +42,7 @@ Ensure the live URL remains valid past **April 30, 2026**, per the assignment.
 1. Edit **`web/src/lib/site.ts`**: `contactEmail` for FormSubmit; optional `linkedInUrl` if you add a profile later. GitHub: [asanchezalzate13](https://github.com/asanchezalzate13).
 2. Confirm FormSubmit: first form post triggers an activation email from FormSubmit.
 3. Replace placeholder links on **Work samples** and **Professional** pages.
-4. Academic awards live on the **Academic** page if needed; **Tatamá** URL is in `site.ts`.
+4. **Tatamá** URL is in `site.ts`; secondary credential line is `baccalaureat` in the same file.
 5. Keep capstone PDFs in `web/public/capstone/` aligned with **`capstonePdfFiles`** in `web/src/lib/capstone.ts`. Figma mockup URL: **`parkSpotMockupFigmaUrl`** in the same file.
 6. Record the **demo video** (with audio) walking through every rubric section.
 7. Zip this folder for D2L: **`Andres_S_W26Portfolio.zip`** including `web/` and this README.

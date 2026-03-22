@@ -2,6 +2,10 @@ import { PageHeading, Prose } from "@/components/Prose";
 import { site } from "@/lib/site";
 
 export default function ResumePage() {
+  const baccParts = site.baccalaureat.split(" — ");
+  const baccDegree = baccParts[0] ?? site.baccalaureat;
+  const baccInstitution = baccParts.slice(1).join(" — ");
+
   return (
     <Prose>
       <PageHeading title="Resume" eyebrow="Personal data">
@@ -54,6 +58,11 @@ export default function ResumePage() {
         <strong>Advanced College Diploma, Computer Programming and Analysis (T177)</strong>
         <br />
         George Brown College, Toronto
+      </p>
+      <p>
+        <strong>{baccDegree}</strong>
+        <br />
+        {baccInstitution}
       </p>
 
       <h2>Selected projects</h2>

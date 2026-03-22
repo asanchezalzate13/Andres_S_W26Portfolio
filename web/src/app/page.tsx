@@ -17,7 +17,8 @@ export default function Home() {
       <p>
         I am <strong>{site.name}</strong>, a trilingual developer focused on full-stack and mobile
         delivery, with growing strength in project leadership and product thinking. I hold an{" "}
-        <strong>{site.education}</strong>. I communicate professionally in{" "}
+        <strong>{site.education}</strong>, after completing the <strong>Baccalauréat</strong> at{" "}
+        <strong>Liceo Francés de Pereira</strong> (Pereira, Colombia). I communicate professionally in{" "}
         <strong>{site.languages}</strong>, which helps me collaborate across teams and markets.
       </p>
       <p>
@@ -39,7 +40,7 @@ export default function Home() {
           <Link href="/philosophy">Philosophy &amp; career goals</Link> — motivations and outlook
         </li>
         <li>
-          <Link href="/academic">Academic credentials</Link> — diploma and awards
+          <Link href="/academic">Academic credentials</Link> — diplomas (GBC + Baccalauréat)
         </li>
         <li>
           <Link href="/work-samples">Academic work samples</Link> — five curated pieces
