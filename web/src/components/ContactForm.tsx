@@ -60,11 +60,6 @@ export function ContactForm() {
       >
         Send message
       </button>
-
-      <p className="text-xs text-[var(--muted)]">
-        Delivered via FormSubmit. Set <code>contactEmail</code> in <code>src/lib/site.ts</code> to
-        your address and confirm the first submission in your inbox.
-      </p>
     </form>
   );
 }

@@ -14,8 +14,8 @@ export default function CapstonePlanPage() {
         }}
       >
         <p>
-          The PDF includes your team&apos;s schedule: dates, milestones, and any Gantt or board
-          exports. This page summarizes the phase structure.
+          The PDF includes the project schedule: dates, milestones, and planning artifacts. This
+          page summarizes the phase structure.
         </p>
         <p>
           <strong className="text-[var(--foreground)]">Phase 1 — Discovery &amp; baseline</strong>
@@ -38,7 +38,7 @@ export default function CapstonePlanPage() {
         </p>
         <ul className="list-disc pl-5">
           <li>Error handling, validation messages, and documentation pass</li>
-          <li>Rehearse demo script; capture screenshots for portfolio</li>
+          <li>Rehearse demo script; capture screenshots for documentation</li>
           <li>Finalize README, API notes, and known limitations</li>
         </ul>
       </CapstoneDocCard>

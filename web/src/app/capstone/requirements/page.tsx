@@ -14,11 +14,11 @@ export default function CapstoneRequirementsPage() {
         }}
       >
         <p>
-          The downloadable PDF is the authoritative high-level requirements set (aligned with your
-          SRS or equivalent). Below is a condensed view of the main themes.
+          The PDF is the authoritative high-level requirements set (aligned with the SRS). Below is
+          a condensed overview.
         </p>
         <p>
-          <strong className="text-[var(--foreground)]">Functional (sample themes):</strong>
+          <strong className="text-[var(--foreground)]">Functional scope:</strong>
         </p>
         <ul className="list-disc pl-5">
           <li>Users can register, authenticate, and maintain a basic profile.</li>
@@ -29,8 +29,8 @@ export default function CapstoneRequirementsPage() {
         </ul>
         <p>
           <strong className="text-[var(--foreground)]">Non-functional:</strong> Security appropriate
-          to academic deployment; modular, maintainable API shape; reasonable performance at demo
-          scale; mobile-first usability with clear failure feedback.
+          to the deployment context; modular, maintainable API shape; reasonable performance at
+          representative data volumes; mobile-first usability with clear failure feedback.
         </p>
       </CapstoneDocCard>
     </article>

@@ -3,7 +3,7 @@ import { PageHeading, Prose } from "@/components/Prose";
 export default function PhilosophyPage() {
   return (
     <Prose>
-      <PageHeading title="Philosophy & career goals" eyebrow="Personal data">
+      <PageHeading title="Philosophy & career goals" eyebrow="Profile">
         <p className="font-serif text-xl italic text-[var(--foreground)]">
           &ldquo;La perseverancia alcanza lo que la dicha no logra.&rdquo;
         </p>

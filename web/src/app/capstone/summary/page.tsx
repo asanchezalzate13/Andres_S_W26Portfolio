@@ -20,10 +20,10 @@ export default function CapstoneSummaryPage() {
           booking constraints, and an operational API that a mobile client can consume.
         </p>
         <p>
-          The full PDF expands on outcomes you can demonstrate: a documented API surface with
-          representative requests and responses, core user journeys implemented end-to-end in the
-          demo environment, recurring status checkpoints that capture scope changes and risks, and
-          design artifacts that aligned requirements with UI expectations before build.
+          The full document covers outcomes in depth: documented API surface with representative
+          requests and responses, core user journeys end-to-end in the test environment, status
+          checkpoints for scope and risk, and design artifacts aligned with requirements before
+          build.
         </p>
       </CapstoneDocCard>
     </article>

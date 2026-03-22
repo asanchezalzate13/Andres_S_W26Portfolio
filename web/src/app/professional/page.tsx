@@ -4,7 +4,7 @@ import { site } from "@/lib/site";
 export default function ProfessionalPage() {
   return (
     <Prose>
-      <PageHeading title="Professional summary" eyebrow="As applicable">
+      <PageHeading title="Professional summary" eyebrow="Experience">
         <p>
           This section complements my résumé with professional samples: entrepreneurship (Tatamá) and
           capstone engineering (ParkSpot).
@@ -26,10 +26,10 @@ export default function ProfessionalPage() {
         </a>
       </p>
 
-      <h3>ParkSpot — production-style engineering sample</h3>
+      <h3>ParkSpot — engineering sample</h3>
       <p>
-        Treat the capstone repository as a professional-grade sample: README quality, API
-        consistency, and how you managed scope as PM + backend lead. Cross-link:{" "}
+        Capstone delivery with documentation, consistent API design, and scope ownership as project
+        manager and backend lead.{" "}
         <a href="/capstone">Capstone documentation</a> ·{" "}
         <a href={site.githubUrl} target="_blank" rel="noopener noreferrer">
           GitHub profile

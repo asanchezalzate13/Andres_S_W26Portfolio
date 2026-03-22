@@ -4,12 +4,7 @@ import { site } from "@/lib/site";
 export default function CoverLetterPage() {
   return (
     <Prose>
-      <PageHeading title="Cover letter — Deloitte (Junior Financial Analyst)" eyebrow="Personal data">
-        <p>
-          Letter dated <strong>March 19, 2026</strong> for the Junior Financial Analyst role. Update
-          the date or employer details when you reuse this for other applications.
-        </p>
-      </PageHeading>
+      <PageHeading title="Cover letter — Junior Financial Analyst" eyebrow="Application" />
 
       <p>
         {site.name}

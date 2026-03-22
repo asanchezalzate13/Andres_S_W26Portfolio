@@ -8,9 +8,8 @@ export default function CapstoneImplementationPage() {
 
       <CapstoneDocCard title="Implementation overview">
         <p>
-          Summarize how ParkSpot was built so a reviewer can map architecture to responsibilities.
-          Point to the canonical repository from your README and on the{" "}
-          <Link href="/work-samples">work samples</Link> page.
+          ParkSpot is structured so reviewers can map architecture to responsibilities. See also{" "}
+          <Link href="/work-samples">work samples</Link> and the linked GitHub profile for code.
         </p>
         <p>
           <strong className="text-[var(--foreground)]">Backend (Node.js / Express)</strong>
@@ -18,7 +17,7 @@ export default function CapstoneImplementationPage() {
         <ul className="list-disc pl-5">
           <li>Route modules aligned to domain areas (auth, listings, bookings)</li>
           <li>Middleware for authentication and centralized error handling</li>
-          <li>Persistence layer and migration or seed strategy used in demos</li>
+          <li>Persistence layer and migration or seed strategy for demonstrations</li>
         </ul>
         <p>
           <strong className="text-[var(--foreground)]">Mobile (Kotlin)</strong>
@@ -33,15 +32,9 @@ export default function CapstoneImplementationPage() {
         </p>
         <ul className="list-disc pl-5">
           <li>Local run instructions and environment variables</li>
-          <li>Tests or manual scripts used before demos</li>
-          <li>Known limitations stated for academic transparency</li>
+          <li>Tests or manual scripts used before demonstrations</li>
+          <li>Known limitations documented for transparency</li>
         </ul>
-        <p className="text-sm">
-          When you have a standalone implementation write-up as PDF, add it under{" "}
-          <code>web/public/capstone/</code> and wire it here using{" "}
-          <code className="text-[var(--foreground)]">capstonePdfFiles</code> in{" "}
-          <code>web/src/lib/capstone.ts</code>.
-        </p>
       </CapstoneDocCard>
     </article>
   );

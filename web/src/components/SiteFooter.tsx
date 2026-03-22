@@ -39,7 +39,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-[var(--border)] py-4 text-center text-xs text-[var(--muted)]">
-        Portfolio · COMP3078 · Living document
+        {site.name} · Portfolio · COMP3078
       </div>
     </footer>
   );

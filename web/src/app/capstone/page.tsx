@@ -16,9 +16,8 @@ export default function CapstoneOverviewPage() {
         planning artifacts, design views, ongoing status, and implementation notes.
       </p>
       <p>
-        Use the navigation above for each deliverable. On every page you&apos;ll find a short
-        summary of the full document plus a button to <strong>download the PDF</strong> for the
-        complete version.
+        Use the navigation above for each deliverable. Most sections include a short summary and a
+        PDF download for the full document.
       </p>
       <h3>Deliverables map</h3>
       <ul>

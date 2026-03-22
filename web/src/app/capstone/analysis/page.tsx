@@ -14,15 +14,15 @@ export default function CapstoneAnalysisPage() {
         }}
       >
         <p>
-          The PDF bundles diagrams and design notes (UML, domain model, sequences) as submitted for
-          the course. This section is the executive summary.
+          The PDF includes diagrams and design notes (UML, domain model, sequences). This section is
+          a brief summary.
         </p>
         <p>
           <strong className="text-[var(--foreground)]">Domain model (narrative):</strong> Core concepts
           include <strong className="text-[var(--foreground)]">User</strong> (with roles),{" "}
           <strong className="text-[var(--foreground)]">Listing</strong> (space metadata and rules), and{" "}
           <strong className="text-[var(--foreground)]">Booking</strong> (time bounds and state) —
-          adjusted to match your ERD in the full document.
+          aligned with the ERD in the full document.
         </p>
         <p>
           <strong className="text-[var(--foreground)]">Key sequences:</strong> Authentication flow;

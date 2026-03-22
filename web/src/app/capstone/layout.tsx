@@ -22,12 +22,9 @@ export default function CapstoneLayout({ children }: { children: React.ReactNode
         Capstone — ParkSpot
       </h1>
       <p className="mt-3 max-w-2xl text-base leading-relaxed text-[var(--muted)]">
-        Modular parking rental application — your role: project manager &amp; backend lead. Stack:
-        Node.js, Express, and Kotlin (mobile). Each tab summarizes a deliverable and offers a{" "}
-        <strong>PDF download</strong> where applicable (team PDFs in{" "}
-        <code className="text-sm">web/public/capstone/</code>, names in{" "}
-        <code className="text-sm">src/lib/capstone.ts</code>). Wireframes open the{" "}
-        <strong>ParkSpot mockup</strong> in Figma.
+        Modular parking rental platform. Role: project manager and backend lead. Stack: Node.js,
+        Express, and Kotlin (mobile). Each section summarizes a deliverable; PDF downloads are
+        available where noted. UI mockups are in Figma.
       </p>
 
       <nav

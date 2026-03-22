@@ -5,11 +5,10 @@ import { site } from "@/lib/site";
 export default function Home() {
   return (
     <Prose>
-      <PageHeading title="Personal overview" eyebrow="Personal data">
+      <PageHeading title="Personal overview" eyebrow="Overview">
         <p>
-          This site is a structured portfolio for coursework and career navigation. Use the menu
-          to explore credentials, academic and professional samples, and the ParkSpot capstone
-          documentation.
+          Portfolio highlighting education, technical work, entrepreneurship, and the ParkSpot
+          capstone. Use the menu to explore each section.
         </p>
       </PageHeading>
 
@@ -33,8 +32,7 @@ export default function Home() {
           <Link href="/resume">Resume</Link> — experience, stack, and project highlights
         </li>
         <li>
-          <Link href="/cover-letter">Cover letter</Link> — Deloitte (Junior Financial Analyst), March
-          2026
+          <Link href="/cover-letter">Cover letter</Link> — Junior Financial Analyst, March 2026
         </li>
         <li>
           <Link href="/philosophy">Philosophy &amp; career goals</Link> — motivations and outlook
@@ -43,16 +41,16 @@ export default function Home() {
           <Link href="/academic">Academic credentials</Link> — diplomas (GBC + Baccalauréat)
         </li>
         <li>
-          <Link href="/work-samples">Academic work samples</Link> — five curated pieces
+          <Link href="/work-samples">Academic work samples</Link> — selected project work
         </li>
         <li>
           <Link href="/capstone">Capstone (ParkSpot)</Link> — vision through implementation
         </li>
         <li>
-          <Link href="/professional">Professional summary</Link> — Tatamá and other samples
+          <Link href="/professional">Professional summary</Link> — Tatamá and ParkSpot
         </li>
         <li>
-          <Link href="/contact">Contact</Link> — form and profiles
+          <Link href="/contact">Contact</Link> — form, GitHub, and email
         </li>
       </ul>
     </Prose>

@@ -30,10 +30,10 @@ export default function CapstoneVisionPage() {
           richer discovery, admin tooling) without rewriting the core domain model.
         </p>
         <p>
-          <strong className="text-[var(--foreground)]">Success signals:</strong> A stable demo for
-          primary journeys, reliable API behaviour in test scenarios, and documentation that lets a
-          new developer onboard in a single sitting. The PDF contains the full narrative your team
-          submitted for the capstone.
+          <strong className="text-[var(--foreground)]">Success signals:</strong> Stable demonstration
+          of primary journeys, reliable API behaviour in test scenarios, and documentation sufficient
+          for a new developer to onboard in a single sitting. The PDF contains the full vision
+          narrative.
         </p>
       </CapstoneDocCard>
     </article>

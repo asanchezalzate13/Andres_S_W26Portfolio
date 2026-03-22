@@ -8,10 +8,8 @@ export default function ResumePage() {
 
   return (
     <Prose>
-      <PageHeading title="Resume" eyebrow="Personal data">
-        <p>
-          Condensed résumé content for your portfolio. Contact via GitHub or email below.
-        </p>
+      <PageHeading title="Resume" eyebrow="Profile">
+        <p>Résumé summary. Contact via GitHub or email below.</p>
       </PageHeading>
 
       <h2>{site.name}</h2>

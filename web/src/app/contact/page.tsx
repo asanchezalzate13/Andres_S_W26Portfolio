@@ -6,9 +6,7 @@ export default function ContactPage() {
   return (
     <Prose>
       <PageHeading title="Contact" eyebrow="Connect">
-        <p>
-          Use the form for course-friendly outreach, or reach me directly on GitHub.
-        </p>
+        <p>Send a message below, or reach me via GitHub or email.</p>
       </PageHeading>
 
       <div className="flex flex-wrap gap-4 text-base">

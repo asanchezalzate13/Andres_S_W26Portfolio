@@ -15,18 +15,18 @@ const samples: Sample[] = [
     title: "ParkSpot — capstone backend & integration",
     course: "Capstone / integrative project",
     summary:
-      "REST services for listings, bookings, and role-aware flows; coordinates with the Kotlin mobile module. Includes API documentation and test scenarios used in demos.",
+      "REST services for listings, bookings, and role-aware flows; coordinates with the Kotlin mobile module. Includes API documentation and representative test scenarios.",
     stack: "Node.js, Express, Kotlin (client), JSON, authentication patterns",
-    linkLabel: "GitHub profile (link specific repo when ready)",
+    linkLabel: "GitHub profile",
     href: site.githubUrl,
   },
   {
     title: "Full-stack web application (SPA + API)",
-    course: "Web development / full-stack coursework",
+    course: "Web development / full-stack",
     summary:
       "A multi-page client with predictable state management calling a secured API. Emphasizes validation, error handling, and deployment readiness.",
     stack: "React, Node.js, REST, environment configuration",
-    linkLabel: "GitHub profile (link specific repo when ready)",
+    linkLabel: "GitHub profile",
     href: site.githubUrl,
   },
   {
@@ -34,8 +34,8 @@ const samples: Sample[] = [
     course: "Mobile development",
     summary:
       "Feature module demonstrating navigation, persistence, and integration with remote data; focuses on UX clarity and lifecycle-safe networking.",
-    stack: "Kotlin or React Native (adjust to your artifact)",
-    linkLabel: "GitHub profile (link specific repo when ready)",
+    stack: "Kotlin, React Native",
+    linkLabel: "GitHub profile",
     href: site.githubUrl,
   },
   {
@@ -44,16 +44,16 @@ const samples: Sample[] = [
     summary:
       "Normalized schema, constraints, and reporting queries for a realistic domain. Includes ERD rationale and sample extracts for stakeholders.",
     stack: "SQL, ER modeling, documentation",
-    linkLabel: "GitHub profile (link specific repo when ready)",
+    linkLabel: "GitHub profile",
     href: site.githubUrl,
   },
   {
     title: "Python data workflow",
     course: "Data science / Python analytics",
     summary:
-      "Notebook or script pipeline that cleans a dataset, visualizes trends, and states limitations clearly—practice in reproducible analysis and communication.",
+      "Notebook or script pipeline that cleans a dataset, visualizes trends, and states limitations clearly—reproducible analysis and clear communication.",
     stack: "Python, pandas, visualization libraries",
-    linkLabel: "GitHub profile (link specific repo when ready)",
+    linkLabel: "GitHub profile",
     href: site.githubUrl,
   },
 ];
@@ -62,10 +62,7 @@ export default function WorkSamplesPage() {
   return (
     <Prose>
       <PageHeading title="Academic work samples" eyebrow="Academic work experience">
-        <p>
-          Five curated samples that represent your strongest academic work. Replace each link with
-          the real repository, PDF, or hosted demo before recording your video and submitting.
-        </p>
+        <p>Representative coursework and project work from the program.</p>
       </PageHeading>
 
       <ul className="not-prose list-none space-y-10 p-0">

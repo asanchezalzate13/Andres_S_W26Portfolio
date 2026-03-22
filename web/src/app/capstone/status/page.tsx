@@ -14,26 +14,26 @@ export default function CapstoneStatusPage() {
         }}
       >
         <p>
-          Download <strong className="text-[var(--foreground)]">W26_T29_ProjectReport2.pdf</strong> for
-          the full milestone report: progress, blockers, risks, and decisions from the capstone term.
+          The PDF is the milestone project report: progress, blockers, risks, and decisions across
+          the capstone term.
         </p>
-        <p>Typical entries cover:</p>
+        <p>Report structure includes:</p>
         <ul className="list-disc pl-5">
           <li>
-            <strong className="text-[var(--foreground)]">Completed:</strong> e.g. booking validation
-            endpoint, listing filters, Kotlin screen wiring
+            <strong className="text-[var(--foreground)]">Completed:</strong> delivered scope items
+            (e.g. API endpoints, mobile screens, integrations)
           </li>
           <li>
-            <strong className="text-[var(--foreground)]">In progress:</strong> error UX, admin stubs,
-            deployment checklist
+            <strong className="text-[var(--foreground)]">In progress:</strong> active workstreams and
+            near-term goals
           </li>
           <li>
-            <strong className="text-[var(--foreground)]">Blockers:</strong> devices, credentials,
-            scope questions — stated specifically
+            <strong className="text-[var(--foreground)]">Blockers:</strong> dependencies and issues
+            affecting delivery
           </li>
           <li>
-            <strong className="text-[var(--foreground)]">Risks &amp; decisions:</strong> integration
-            drift, demo data, API shape changes, deferred features
+            <strong className="text-[var(--foreground)]">Risks &amp; decisions:</strong> technical and
+            scope decisions, mitigations, and deferred items
           </li>
         </ul>
       </CapstoneDocCard>
